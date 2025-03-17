@@ -37,7 +37,7 @@ export default function DashboardLayout({
     { icon: <DashboardIcon />, label: "Dashboard", href: "/dashboard", active: true },
     { icon: <FolderIcon />, label: "Files", href: "/files" },
     { icon: <DevicesIcon />, label: "Devices", href: "/devices" },
-    { icon: <UsersIcon />, label: "Shared", href: "/shared" },
+    { icon: <UsersIcon />, label: "Shared", href: "/file-sharing" },
     { icon: <SettingsIcon />, label: "Settings", href: "/settings" },
   ];
 
