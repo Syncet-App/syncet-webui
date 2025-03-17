@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Vite + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Syncet",
+  description: "Sync your files in real time between all your devices",
   navItems: [
     {
       label: "Home",
@@ -17,8 +17,8 @@ export const siteConfig = {
       href: "/pricing",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Updates",
+      href: "/updates",
     },
     {
       label: "About",
@@ -60,7 +60,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/frontio-ai/heroui",
+    github: "https://github.com/Syncet-App",
     twitter: "https://twitter.com/hero_ui",
     docs: "https://heroui.com",
     discord: "https://discord.gg/9b6yyZKmH4",
