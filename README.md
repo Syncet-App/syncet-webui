@@ -1,38 +1,50 @@
-# sv
+# Vite & HeroUI Template
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a template for creating applications using Vite and HeroUI (v2).
 
-## Creating a project
+[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Technologies Used
+
+- [Vite](https://vitejs.dev/guide/)
+- [HeroUI](https://heroui.com)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Tailwind Variants](https://tailwind-variants.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Framer Motion](https://www.framer.com/motion)
+
+## How to Use
+
+To clone the project, run the following command:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/frontio-ai/vite-template.git
 ```
 
-## Developing
+### Install dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+
+```bash
+npm install
+```
+
+### Run the development server
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+### Setup pnpm (optional)
 
-To create a production version of your app:
+If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
 
 ```bash
-npm run build
+public-hoist-pattern[]=*@heroui/*
 ```
 
-You can preview the production build with `npm run preview`.
+After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## License
+
+Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
